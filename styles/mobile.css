@@ -11,21 +11,11 @@
     
     .parent {
         background: url("images/bg-pattern-top-mobile.svg") no-repeat, url("images/bg-pattern-bottom-mobile.svg") no-repeat;
-        height: 1100px;
-        width: 355px;
+        height: 100%;
+        width: 350px;
         margin: auto;
     
     }
-    
-    /* .header {
-        border: 2px solid green;
-        height: 316px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    } */
-    
     
     .container {
         margin-top: 20px;
@@ -81,7 +71,7 @@
     .box {
         border-radius: 5px;
         background: #502050;
-        padding: 22px;
+        padding: 19px;
         margin-top: 20px;
         width: 100%;
     }
