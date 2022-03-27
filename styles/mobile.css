@@ -12,7 +12,7 @@
     .parent {
         background: url("images/bg-pattern-top-mobile.svg") no-repeat, url("images/bg-pattern-bottom-mobile.svg") no-repeat;
         height: 1100px;
-        width: 310px;
+        width: 355px;
         margin: auto;
     
     }
@@ -34,16 +34,17 @@
     }
     
     h1 {
-        width: 250px;
+        width: 100%;
         margin: auto;
-        padding: 20px;
-        color:#502050;;
+        padding: 15px 50px 15px 50px;
+        color:#502050;
+        text-align: center;
         font-weight: 700;
         line-height: 1;
     }
     
     .para-text {
-        width: 310px;
+        width: 100%;
         text-align: center;
         font-size: 15px;
         font-weight: 400;
@@ -80,8 +81,9 @@
     .box {
         border-radius: 5px;
         background: #502050;
-        padding: 15px;
+        padding: 22px;
         margin-top: 20px;
+        width: 100%;
     }
      
     h4 {
@@ -115,6 +117,8 @@
     .box > p {
         color: #f7f2f7;
         margin-bottom: 5px;
+        padding-left: -30px;
+        padding-right: -30px;
     }
     
 }
